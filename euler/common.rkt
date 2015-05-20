@@ -7,14 +7,14 @@
 
 (provide cartesian-product)
 
+
+; test
 (define a '(1 2 3))
 (define b '(4 5))
 
-
 ; test
-(list a b)
-(cartesian-product a b)
-(map (lambda (x) (reverse (map (lambda (y) (list x y)) b))) a)
-(map (lambda (x) (map (lambda (y) (list x y)) b)) a)
-
-(map (lambda (x) (map (lambda (y) (list x y)) b)) a)
+; (list a b)
+; (cartesian-product a b)
+; (map (lambda (x) (reverse (map (lambda (y) (list x y)) b))) a)
+; (map (lambda (x) (map (lambda (y) (list x y)) b)) a)
+; (map (lambda (x) (map (lambda (y) (list x y)) b)) a)
