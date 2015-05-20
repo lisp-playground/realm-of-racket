@@ -20,7 +20,3 @@ Find the largest palindrome made from the product of two 3-digit numbers.
          (filter is-palindrome?
                  (map (lambda (x) (apply * x))
                       (cartesian-product (range 100 999) (range 100 999))))))
-
-
-; test
-(solve)
